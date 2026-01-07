@@ -5,7 +5,7 @@ import userRoutes from './routes/user.routes.js';
 const app = express();
 
 app.use(cors({
-  origin: ['https://bank-sampah-030.vercel.app/'],
+  origin: ['https://bank-sampah-030.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
